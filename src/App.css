@@ -120,6 +120,23 @@
   height: 88vh;
   width: 100%;
 }
+  
+@media screen and (max-width: 800px) {
+
+    /* .herohappy{
+      background-size: none;
+
+    } */
+    .cover-slide{
+      height: 33vh;
+    }
+}
+@media screen and (max-width:768px){
+  .col-lg-2{
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+}
 * {
   overflow-x: hidden;
 }
@@ -237,12 +254,57 @@ button:hover {
   height: 100vh;
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  .masterclass1 {
+      background-size: contain;
+      background-position: center center; 
+      height: 55vh;
+      /* width:100vh; */
+  }
+}
+@media (max-width: 425px) {
+  .masterclass1 {
+    background-size: contain;
+    background-position: center center; 
+    height: 40vh;
+}
+}
+@media (max-width: 375px) {
+  .masterclass1 {
+    background-size: contain;
+    background-position: center center; 
+    height: 35vh;
+}
+}
 .masterclass2 {
   background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698540711/Bg_1_qezbw4.png");
   background-size: cover; /* Scale the background image to cover the entire element */
   background-repeat: no-repeat;
   height: 90vh;
   width: 100%;
+}
+@media (max-width: 768px) {
+  .masterclass2 {
+      background-size: contain; 
+      background-position: center center;
+      height: 55vh;
+  }
+}
+
+@media (max-width: 425px) {
+  .masterclass2 {
+    background-size: contain;
+    background-position: center center; 
+    height: 40vh;
+}
+}
+@media (max-width: 375px) {
+  .masterclass2 {
+    background-size: contain;
+    background-position: center center; 
+    height: 35vh;
+}
 }
 .secondmaster {
   border: 1.5px solid #070707;
@@ -319,6 +381,27 @@ button:hover {
   height: 90vh;
   width: 100%;
 }
+@media (max-width: 768px) {
+  .masterclass3 {
+      background-size: contain;
+      background-position: center center; 
+      height: 55vh;
+  }
+}
+@media (max-width: 425px) {
+  .masterclass3 {
+    background-size: contain;
+    background-position: center center; 
+    height: 40vh;
+}
+}
+@media (max-width: 375px) {
+  .masterclass3 {
+    background-size: contain;
+    background-position: center center; 
+    height: 35vh;
+}
+}
 .forthmaster {
   border: 1.5px solid #f1f5f5;
   background: #8858f5;
@@ -369,6 +452,27 @@ button:hover {
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
+}
+@media (max-width: 768px) {
+  .volunter{
+      background-size: contain;
+      background-position: center center;
+      height: 55vh;
+  }
+}
+@media (max-width: 425px) {
+  .volunter {
+    background-size: contain;
+    background-position: center center; 
+    height: 40vh;
+}
+}
+@media (max-width: 375px) {
+  .volunter {
+    background-size: contain;
+    background-position: center center; 
+    height: 35vh;
+}
 }
 .provolunter p {
   color: var(--grayscale-body, #4e4b66);
@@ -467,6 +571,13 @@ button:hover {
   letter-spacing: 0.16px;
   text-transform: uppercase;
 }
+@media (max-width: 768px) {
+  .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 /* CSS for tablet (landscape) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /* .program_x_section {
@@ -493,10 +604,10 @@ button:hover {
   }
   .aboutimg {
   }
-  .cover-slide {
+  /* .cover-slide {
     height: 88vh;
   }
   .herohappy {
     height: 88vh;
-  }
+  } */
 }

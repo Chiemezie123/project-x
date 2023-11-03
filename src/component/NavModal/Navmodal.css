@@ -6,7 +6,7 @@
     top: 14%;
     right:0;
     left:0;
-    background-image: linear-gradient(0deg, #070707 0%, #070707 100%), url(/images/bg.jpg);
+    background-image:url(/images/bg.jpg);
     height: 500px;
 }
 .Modal_container{
@@ -34,4 +34,20 @@
     &:last-child{
         border-bottom: none;
     }
+}
+
+@media screen and (min-width: 768px) {
+
+    .Main_modal{
+        /* border: 1px solid red; */
+        position: absolute;
+            top: 12%;
+        }
+
+        .Modal_container{
+            width:90%;
+            margin: 30px 30px 30px 30px
+           
+        }
+
 }
