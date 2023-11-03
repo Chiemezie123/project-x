@@ -58,7 +58,7 @@ function App() {
               </div>
             </div>
             <div className="col-lg-8">
-              <div className="herohappy"></div>
+              <div className="herohappy"> </div>
             </div>
           </div>
         </div>
