@@ -530,10 +530,11 @@ button:hover {
   top: 610px;
   left: 113px;
 } */
+
 .position_element {
   position: relative;
-  top: calc(88vh);
-  left: calc(9vw); /* Set left to 5% of the viewport width */
+  top: 600px;
+  left: 100px; 
 }
 
 .footer {
@@ -571,29 +572,26 @@ button:hover {
   letter-spacing: 0.16px;
   text-transform: uppercase;
 }
-@media (max-width: 768px) {
-  .row{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-}
+
 /* CSS for tablet (landscape) */
 @media(max-width: 1024px) {
   
   .position_element {
-    left: 92px;
     top: 456px;
+  }
+  .col-lg-8 h2{
+    font-size: 48px;
   }
   button {
     padding: 10px 21px;
   }
   .aboutimg {
-  }
+
   
 }
+}
 
-@media (max-width: 425px) {
+@media (max-width: 375px) {
   .position_element {
     top: 20px;
     left:92px;
@@ -606,9 +604,9 @@ button:hover {
 @media (max-width: 768px) {
   .position_element{
     top: 310px;
-      left:92px;
+      left:192px;
     }
     .col-lg-8 h2{
-      font-size: 38px;
+      font-size: 32px;
     }
   }
