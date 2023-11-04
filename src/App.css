@@ -254,7 +254,13 @@ button:hover {
   height: 100vh;
   width: 100%;
 }
-
+@media (max-width: 1024px) {
+  .masterclass1{
+      background-size: contain;
+      background-position: center center;
+     height:50vh;
+  }
+}
 @media (max-width: 768px) {
   .masterclass1 {
       background-size: contain;
@@ -283,6 +289,13 @@ button:hover {
   background-repeat: no-repeat;
   height: 90vh;
   width: 100%;
+}
+@media (max-width: 1024px) {
+  .masterclass2{
+      background-size: contain;
+      background-position: center center;
+      height:50vh;
+  }
 }
 @media (max-width: 768px) {
   .masterclass2 {
@@ -381,6 +394,13 @@ button:hover {
   height: 90vh;
   width: 100%;
 }
+@media (max-width: 1024px) {
+  .masterclass3{
+      background-size: contain;
+      background-position: center center;
+      height:50vh;
+  }
+}
 @media (max-width: 768px) {
   .masterclass3 {
       background-size: contain;
@@ -452,6 +472,13 @@ button:hover {
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
+}
+@media (max-width: 1024px) {
+  .volunter{
+      background-size: contain;
+      background-position: center center;
+      height:50vh;
+  }
 }
 @media (max-width: 768px) {
   .volunter{
@@ -591,22 +618,23 @@ button:hover {
 }
 }
 
-@media (max-width: 375px) {
+
+@media (max-width: 768px) {
+  .position_element{
+    top: 310px;
+    left:192px;
+  }
+  .col-lg-8 h2{
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 320px) {
   .position_element {
-    top: 20px;
+    top: 120px;
     left:92px;
   }
   .col-lg-8 h2{
     font-size: 12px;
   }
 }
-
-@media (max-width: 768px) {
-  .position_element{
-    top: 310px;
-      left:192px;
-    }
-    .col-lg-8 h2{
-      font-size: 32px;
-    }
-  }
